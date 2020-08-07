@@ -48,7 +48,7 @@ echo "Install William Lam NSX-T Powershell Module"
 pwsh -command Install-Module VMware.VMC.NSXT <<< A >/dev/null 2>&1
 
 echo "Download VMC-EGRESS Sctips from GitHub"
-wget -quiet https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ini >/dev/null 2>&1
-wget -quiet https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ps1 >/dev/null 2>&1
+wget --quiet https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ini >/dev/null 2>&1
+wget --quiet https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ps1 >/dev/null 2>&1
 
 echo "Installation complete"
