@@ -5,7 +5,6 @@
 # - Apache Web Server
 # - Enable Apache Web Server Startup
 # - Open Firewall ports
-# - Install wget command
 # - Install MIcrosoft POwershell for Linux
 # - Update O.S.
 # - Install VMware POwershell Modules
@@ -28,9 +27,6 @@ sudo firewall-cmd --permanent --add-port=80/tcp >/dev/null 2>&1
 sudo firewall-cmd --permanent --add-port=443/tcp >/dev/null 2>&1
 sudo firewall-cmd --reload >/dev/null 2>&1
 
-echo "Installing wget"
-sudo yum install -y wget >/dev/null 2>&1
-
 echo "Installing Microsoft Powershell for Linux"
 curl -s https://packages.microsoft.com/config/rhel/7/prod.repo | sudo tee /etc/yum.repos.d/microsoft.repo >/dev/null 2>&1
 sudo yum install -y powershell >/dev/null 2>&1
@@ -48,7 +44,7 @@ echo "Installing William Lam NSX-T Powershell Module"
 pwsh -command Install-Module VMware.VMC.NSXT <<< A >/dev/null 2>&1
 
 echo "Downloading VMC-EGRESS Sctips from GitHub"
-wget --quiet https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ini
-wget --quiet https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ps1
+curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ini
+curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ps1
 
 echo "Installation complete"
