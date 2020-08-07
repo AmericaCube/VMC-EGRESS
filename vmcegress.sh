@@ -5,7 +5,7 @@
 # - Apache Web Server
 # - Enable Apache Web Server Startup
 # - Open Firewall ports
-# - Install MIcrosoft POwershell for Linux
+# - Install Microsoft POwershell for Linux
 # - Update O.S.
 # - Install VMware POwershell Modules
 # - Install William Lam NSX-T Powershell Module
