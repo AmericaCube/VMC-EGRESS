@@ -36,7 +36,7 @@ Example:
 
 if [OutputOnWeb = 1] script will write file index.html into /var/www/html with calculated info.
 
-If [IsATest = 1] script doesn't try to connect to VMware Cloud on AWS: will calculate CostPerGigaByte by using [TestMBytes] and create [OutputFile] and Apache [index.html] file.
+If [IsATest = 1] script doesn't try to connect to VMware Cloud on AWS: will calculate CostPerGigaByte by using [TestMBytes], create [OutputFile], Apache [index.html] file and will write results on screen.
 
 Parameters for file .INI
 
