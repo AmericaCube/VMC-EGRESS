@@ -4,6 +4,7 @@ Powershell script to query NSX-T about EGRESS Traffic Consumption
 (C) 2020 Cesare G. Rossi
 Use William Lam Powershell Module for NSX-T
 ______________
+
 Download and execute script [vmcegress.sh] to install all components to Your CentOS machine:
 
 curl -LJO https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmcegress.sh
@@ -22,6 +23,7 @@ Script will:
 - Download VMC-EGRESS Scrips from GitHub
 - Download this README.md file from GitHub
 _______________
+
 Syntax:
 
 pwsh vmc.ps1 [parametersfilename]
@@ -44,6 +46,7 @@ Example:
 if [OutputOnWeb = 1] script will write file index.html into /var/www/html with calculated info.
 If [IsATest = 1] script doesn't try to connect to VMware Cloud on AWS: will calculate CostPerGigaByte by using [TestMBytes], create [OutputFile], Apache [index.html] file and will write results on screen.
 _________________________
+
 Parameters for file .INI
 
 RefreshToken= API Token for VMConAWS Org (see video APIToken.mp4]
@@ -57,6 +60,7 @@ OutputOnWeb= Creation of Index.html file needed (1/0) [optional]
 IsATest= Run script as a test without VMC query (1/0) [optional]
 TestMBytes= # of MBytes to use for testing [optional]
 ______________
+
 Output on Apache Web Page [http://ipaddressoflinuxmachine]
 
 VMware Cloud on AWS Egress
