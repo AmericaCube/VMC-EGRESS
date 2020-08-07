@@ -21,7 +21,7 @@ Script will:
 - Install VMware Powershell Modules
 - Install William Lam NSX-T Powershell Module
 - Download VMC-EGRESS Scrips from GitHub
-- Download this README.md file from GitHub
+- Download this readme.txt file from GitHub
 _______________
 
 Syntax:
