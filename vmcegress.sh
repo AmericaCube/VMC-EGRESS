@@ -20,7 +20,7 @@ sudo firewall-cmd --permanent --add-port=80/tcp
 sudo firewall-cmd --permanent --add-port=443/tcp
 sudo firewall-cmd --reload
 
-sudo install -y wget
+sudo yum install -y wget
 
 curl https://packages.microsoft.com/config/rhel/7/prod.repo | sudo tee /etc/yum.repos.d/microsoft.repo
 
