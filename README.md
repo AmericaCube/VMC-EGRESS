@@ -8,6 +8,8 @@ Powershell script to query NSX-T about EGRESS Traffic Consumption
 
 Use William Lam Powershell Module for NSX-T
 
+Download and execute script [VMware Cloud on AWSgress.sh] to install all components to Your CentOS machine 
+
 Syntax:
 
 pwsh vmc.ps1 [parametersfilename]
