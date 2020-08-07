@@ -11,6 +11,8 @@ ______________
 
 Download and execute script [vmcegress.sh] to install all components to Your CentOS machine:
 
+curl -LJO https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmcegress.sh
+
 chmod +x vmcegress.sh
 
 ./vmcegress.sh
