@@ -25,8 +25,6 @@ Script will:
 
 - Configure firewall for Apache Web Server
 
-- Install wget
-
 - Install Microsoft Powershell for Linux
 
 - Update O.S. & Packages
