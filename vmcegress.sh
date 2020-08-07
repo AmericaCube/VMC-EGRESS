@@ -5,6 +5,7 @@
 # - Apache Web Server
 # - Enable Apache Web Server Startup
 # - Open Firewall ports
+# - Install wget command
 # - Install MIcrosoft POwershell for Linux
 # - Update O.S.
 # - Install VMware POwershell Modules
@@ -18,6 +19,8 @@ sudo systemctl enable httpd
 sudo firewall-cmd --permanent --add-port=80/tcp
 sudo firewall-cmd --permanent --add-port=443/tcp
 sudo firewall-cmd --reload
+
+sudo install -y wget
 
 curl https://packages.microsoft.com/config/rhel/7/prod.repo | sudo tee /etc/yum.repos.d/microsoft.repo
 
