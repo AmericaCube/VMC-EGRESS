@@ -37,6 +37,8 @@ Script will:
 
 - Download VMC-EGRESS Scrips from GitHub
 
+- Download this README.md file from GitHub
+
 _______________
 
 Syntax:
