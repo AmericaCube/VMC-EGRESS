@@ -49,7 +49,7 @@ curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/readme.txt
 
 echo "Configuring crontab"
 echo 'MAILTO=""' > vmc.crontab
-echo "00,15,30,45 * * * * ./pwsh vmc.ps1 > /dev/null 2>&1" >> vmc.crontab
+echo "00,15,30,45 * * * * pwsh vmc.ps1 > /dev/null 2>&1" >> vmc.crontab
 crontab vmc.crontab 
 
 echo "Installation complete"
