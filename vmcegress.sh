@@ -46,5 +46,5 @@ pwsh -command Install-Module VMware.VMC.NSXT <<< A >/dev/null 2>&1
 echo "Downloading VMC-EGRESS Sctips from GitHub"
 curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ini
 curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ps1
-
+curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/readme.md
 echo "Installation complete"
