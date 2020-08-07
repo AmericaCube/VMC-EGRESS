@@ -90,3 +90,23 @@ OutputOnWeb= Creation of Index.html file needed (1/0) [optional]
 IsATest= Run script as a test without VMC query (1/0) [optional]
 
 TestMBytes= # of MBytes to use for testing [optional]
+
+______________
+
+Output on Apache Web Page [http://ipaddressoflinuxmachine]
+
+VMware Cloud on AWS Egress
+
+EGRESS Traffic Monitor
+
+Check Date: 08/07/2020 17:11:19
+EGRESS Traffic: 18.62GB
+
+EGRESS Cost: 0.93Euro
+
+Threshold has been exceeded!
+
+Traffic Threshold = GB, EGRESS Traffic = 18.62GB
+
+Traffic Cost Threshold = $, EGRESS Traffic Cost = 0.93$
+
