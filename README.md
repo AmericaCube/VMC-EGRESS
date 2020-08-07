@@ -38,6 +38,8 @@ if [OutputOnWeb = 1] script will write file index.html into /var/www/html with c
 
 If [IsATest = 1] script doesn't try to connect to VMware Cloud on AWS: will calculate CostPerGigaByte by using [TestMBytes], create [OutputFile], Apache [index.html] file and will write results on screen.
 
+_________________________
+
 Parameters for file .INI
 
 RefreshToken= API Token for VMConAWS Org (see video APIToken.mp4]
