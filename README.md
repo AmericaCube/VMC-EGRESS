@@ -111,4 +111,3 @@ Threshold has been exceeded!
 Traffic Threshold = GB, EGRESS Traffic = 18.62GB
 
 Traffic Cost Threshold = $, EGRESS Traffic Cost = 0.93$
-
