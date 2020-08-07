@@ -9,9 +9,9 @@
 # - Update O.S.
 # - Install VMware POwershell Modules
 # - Install William Lam NSX-T Powershell Module
-# - DOwnload VMC-Egress Powershell Script from GitHub
-# - DOwnload VMC-Egress readme.txt file from GitHub
-# 
+# - Download VMC-Egress Powershell Script from GitHub
+# - Download VMC-Egress readme.txt file from GitHub
+# - Configure crontab to run vmc.ps1 script at minute 00,15,30,45 every hour
 
 echo "Updating O.S. & Packages"
 sudo yum update -y >/dev/null 2>&1
@@ -46,4 +46,11 @@ echo "Downloading VMC-EGRESS Sctips from GitHub"
 curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ini
 curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/vmc.ps1
 curl -LJOs https://github.com/AmericaCube/VMC-EGRESS/raw/master/readme.txt
+
+echo "Configuring crontab"
+echo "MAILTO=\"\" > vmc.crontab
+echo "00,15,30,45 * * * * ./pwsh vmc.ps1 > /dev/null 2>&1" >> vmc.crontab
+crontab vmc.crontab 
+
 echo "Installation complete"
+

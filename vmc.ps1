@@ -58,6 +58,7 @@ if($OutputOnWeb -eq 1)
 {
         [System.String]::Concat("<html>") | Out-File -FilePath "/var/www/html/index.html"
         [System.String]::Concat("<head>") | Out-File -FilePath "/var/www/html/index.html" -Append
+		[System.String]::Concat('<meta http-equiv="refresh" content="60">') | Out-File -FilePath "/var/www/html/index.html"
         [System.String]::Concat("<title>", "VMware Cloud on AWS Egress Traffic", "</title>") | Out-File -FilePath "/var/www/html/index.html" -Append
         [System.String]::Concat("</head>") | Out-File -FilePath "/var/www/html/index.html" -Append
         [System.String]::Concat("<body>") | Out-File -FilePath "/var/www/html/index.html" -Append
