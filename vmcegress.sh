@@ -10,9 +10,8 @@
 # - Install VMware POwershell Modules
 # - Install William Lam NSX-T Powershell Module
 # - DOwnload VMC-Egress Powershell Script from GitHub
+# - DOwnload VMC-Egress readme.txt file from GitHub
 # 
-
-clear
 
 echo "Updating O.S. & Packages"
 sudo yum update -y >/dev/null 2>&1
