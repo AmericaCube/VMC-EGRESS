@@ -18,7 +18,7 @@ If [parametersfilename] is omitted, default will be VMC.INI
 
 Parameters for file .INI
 
-RefreshToken= API Token for VMConAWS Org
+RefreshToken= API Token for VMConAWS Org (see video APIToken.mov]
 
 OrgName= VMC Org Name
 
