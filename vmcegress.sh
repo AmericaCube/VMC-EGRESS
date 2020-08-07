@@ -1,3 +1,17 @@
+#!/bin/bash
+
+# Setup script for VMware Cloud on AWS EGRESS Traffic Monitoring
+# 
+# - Apache Web Server
+# - Enable Apache Web Server Startup
+# - Open Firewall ports
+# - Install MIcrosoft POwershell for Linux
+# - Update O.S.
+# - Install VMware POwershell Modules
+# - Install William Lam NSX-T Powershell Module
+# - DOwnload VMC-Egress Powershell Script from GitHub
+# 
+
 sudo yum install -y httpd
 sudo systemctl start httpd
 sudo systemctl enable httpd
