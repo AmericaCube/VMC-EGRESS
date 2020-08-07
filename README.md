@@ -15,6 +15,28 @@ chmod +x vmcegress.sh
 
 ./vmcegress.sh
 
+Script will:
+
+- Update O.S. & Packages
+
+- Install Apache Web Server
+
+- Enable Apache Web Server on Linux startup
+
+- Configure firewall for Apache Web Server
+
+- Install wget
+
+- Install Microsoft Powershell for Linux
+
+- Update O.S. & Packages
+
+- Install VMware Powershell Modules
+
+- Install William Lam NSX-T Powershell Module
+
+- Download VMC-EGRESS Scrips from GitHub
+
 _______________
 
 Syntax:
